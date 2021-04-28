@@ -1,0 +1,12 @@
+server:
+  port: 8008
+
+spring:
+  application:
+    name: USER-SERVICE
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/jatin107/config-server
+          clone-on-start: true
